@@ -2,6 +2,12 @@
 
 A responsive employee and task management dashboard built with React. Admins can manage assigned work, while employees can review their tasks and update progress.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+</p>
+
 ## Dashboards
 
 | Admin dashboard | Employee dashboard |
