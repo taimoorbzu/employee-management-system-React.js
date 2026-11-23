@@ -1,0 +1,404 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Taimoor Khalid",
+      "email": "taimoor@example.test",
+      "password": "12345",
+      "role": "Admin"
+    },
+    {
+      "id": "2",
+      "name": "Ayesha Khan",
+      "email": "ayesha@example.test",
+      "password": "123",
+      "role": "Employee"
+    },
+    {
+      "id": "3",
+      "name": "Hamza Ali",
+      "email": "hamza@example.test",
+      "password": "123",
+      "role": "Employee"
+    },
+    {
+      "id": "4",
+      "name": "Sara Ahmed",
+      "email": "sara@example.test",
+      "password": "123",
+      "role": "Employee"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "8",
+      "assignee": "Sara Ahmed",
+      "title": "Test role-based login",
+      "date": "2026-11-26T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Verify that admin and employee accounts open the correct dashboards.",
+      "status": "New"
+    },
+    {
+      "id": "9",
+      "assignee": "Hamza Ali",
+      "title": "Review task status",
+      "date": "2026-12-01T17:00",
+      "category": "Quality Assurance",
+      "description": "Check that task status labels are clear and consistently styled across the dashboards.",
+      "status": "Pending"
+    },
+    {
+      "id": "10",
+      "assignee": "Ayesha Khan",
+      "title": "Design task status colors",
+      "date": "2026-11-25T17:00:00",
+      "category": "Design",
+      "description": "Review the visual hierarchy and color contrast for each task status badge.",
+      "status": "New"
+    },
+    {
+      "id": "11",
+      "assignee": "Ayesha Khan",
+      "title": "Review mobile dashboard navigation",
+      "date": "2026-11-26T17:00:00",
+      "category": "Design",
+      "description": "Check that dashboard navigation remains clear and usable on small screens.",
+      "status": "Pending"
+    },
+    {
+      "id": "12",
+      "assignee": "Ayesha Khan",
+      "title": "Prepare onboarding illustrations",
+      "date": "2026-11-27T17:00:00",
+      "category": "Design",
+      "description": "Create simple illustrations to guide new employees through their dashboard.",
+      "status": "In Progress"
+    },
+    {
+      "id": "13",
+      "assignee": "Ayesha Khan",
+      "title": "Update employee profile mockups",
+      "date": "2026-11-28T17:00:00",
+      "category": "Design",
+      "description": "Prepare profile screen mockups that follow the current dashboard style.",
+      "status": "Completed"
+    },
+    {
+      "id": "14",
+      "assignee": "Ayesha Khan",
+      "title": "Define accessible color tokens",
+      "date": "2026-11-29T17:00:00",
+      "category": "Design",
+      "description": "Document accessible foreground and background colors for interface states.",
+      "status": "New"
+    },
+    {
+      "id": "15",
+      "assignee": "Ayesha Khan",
+      "title": "Review modal and alert layouts",
+      "date": "2026-11-30T17:00:00",
+      "category": "Design",
+      "description": "Check spacing and readability in modal and alert components.",
+      "status": "Pending"
+    },
+    {
+      "id": "16",
+      "assignee": "Ayesha Khan",
+      "title": "Create empty-state illustrations",
+      "date": "2026-12-01T17:00:00",
+      "category": "Design",
+      "description": "Prepare visual concepts for dashboards that do not yet have assigned tasks.",
+      "status": "Completed"
+    },
+    {
+      "id": "17",
+      "assignee": "Ayesha Khan",
+      "title": "Validate task card spacing",
+      "date": "2026-12-02T17:00:00",
+      "category": "Design",
+      "description": "Review task card spacing and text alignment at common viewport sizes.",
+      "status": "In Progress"
+    },
+    {
+      "id": "18",
+      "assignee": "Ayesha Khan",
+      "title": "Prepare dashboard design handoff",
+      "date": "2026-12-03T17:00:00",
+      "category": "Design",
+      "description": "Organize design notes and assets for the dashboard implementation handoff.",
+      "status": "New"
+    },
+    {
+      "id": "19",
+      "assignee": "Ayesha Khan",
+      "title": "Audit dashboard typography",
+      "date": "2026-12-04T17:00:00",
+      "category": "Design",
+      "description": "Check heading, label, and body text sizes for a consistent visual hierarchy.",
+      "status": "Pending"
+    },
+    {
+      "id": "20",
+      "assignee": "Ayesha Khan",
+      "title": "Design responsive admin table",
+      "date": "2026-12-05T17:00:00",
+      "category": "Design",
+      "description": "Plan a responsive layout for the admin task table on narrow screens.",
+      "status": "In Progress"
+    },
+    {
+      "id": "21",
+      "assignee": "Ayesha Khan",
+      "title": "Create design review checklist",
+      "date": "2026-12-06T17:00:00",
+      "category": "Design",
+      "description": "Write a checklist for reviewing visual consistency before each release.",
+      "status": "Completed"
+    },
+    {
+      "id": "22",
+      "assignee": "Ayesha Khan",
+      "title": "Polish the login form layout",
+      "date": "2026-12-07T17:00:00",
+      "category": "Design",
+      "description": "Review login form alignment, spacing, and responsive behavior.",
+      "status": "New"
+    },
+    {
+      "id": "23",
+      "assignee": "Hamza Ali",
+      "title": "Add task form validation",
+      "date": "2026-11-25T17:00:00",
+      "category": "Development",
+      "description": "Validate required task fields and show useful feedback for invalid input.",
+      "status": "Pending"
+    },
+    {
+      "id": "25",
+      "assignee": "Hamza Ali",
+      "title": "Implement task deletion",
+      "date": "2026-11-27T17:00:00",
+      "category": "Development",
+      "description": "Delete tasks through the API and update the shared task state after success.",
+      "status": "Completed"
+    },
+    {
+      "id": "26",
+      "assignee": "Hamza Ali",
+      "title": "Add task status update flow",
+      "date": "2026-11-28T17:00:00",
+      "category": "Development",
+      "description": "Allow employees to update the status of their assigned tasks.",
+      "status": "Pending"
+    },
+    {
+      "id": "27",
+      "assignee": "Hamza Ali",
+      "title": "Improve API error handling",
+      "date": "2026-11-29T17:00:00",
+      "category": "Development",
+      "description": "Display clear messages when task requests fail or the API is unavailable.",
+      "status": "In Progress"
+    },
+    {
+      "id": "28",
+      "assignee": "Hamza Ali",
+      "title": "Add employee selection to task form",
+      "date": "2026-11-30T17:00:00",
+      "category": "Development",
+      "description": "Populate the task assignment field with employees loaded from the API.",
+      "status": "New"
+    },
+    {
+      "id": "29",
+      "assignee": "Hamza Ali",
+      "title": "Keep task counts synchronized",
+      "date": "2026-12-01T17:00:00",
+      "category": "Development",
+      "description": "Ensure dashboard task counts update when tasks are created or changed.",
+      "status": "Pending"
+    },
+    {
+      "id": "30",
+      "assignee": "Hamza Ali",
+      "title": "Add task creation success feedback",
+      "date": "2026-12-02T17:00:00",
+      "category": "Development",
+      "description": "Show confirmation after a new task has been saved successfully.",
+      "status": "New"
+    },
+    {
+      "id": "31",
+      "assignee": "Hamza Ali",
+      "title": "Review API request cleanup",
+      "date": "2026-12-03T17:00:00",
+      "category": "Development",
+      "description": "Check that outstanding requests are cancelled when components unmount.",
+      "status": "Completed"
+    },
+    {
+      "id": "32",
+      "assignee": "Hamza Ali",
+      "title": "Add task list empty states",
+      "date": "2026-12-04T17:00:00",
+      "category": "Development",
+      "description": "Show helpful empty-state messages when there are no tasks to display.",
+      "status": "In Progress"
+    },
+    {
+      "id": "33",
+      "assignee": "Hamza Ali",
+      "title": "Check task identifiers",
+      "date": "2026-12-05T17:00:00",
+      "category": "Development",
+      "description": "Verify task IDs remain unique and are used consistently in API requests.",
+      "status": "Pending"
+    },
+    {
+      "id": "34",
+      "assignee": "Hamza Ali",
+      "title": "Refine task card date formatting",
+      "date": "2026-12-06T17:00:00",
+      "category": "Development",
+      "description": "Format task dates consistently and handle missing or invalid values.",
+      "status": "New"
+    },
+    {
+      "id": "35",
+      "assignee": "Hamza Ali",
+      "title": "Review task API integration",
+      "date": "2026-12-07T17:00:00",
+      "category": "Development",
+      "description": "Test task read, create, update, and delete requests against JSON Server.",
+      "status": "Pending"
+    },
+    {
+      "id": "36",
+      "assignee": "Sara Ahmed",
+      "title": "Test employee task filtering",
+      "date": "2026-11-25T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Confirm each employee sees only tasks assigned to their account.",
+      "status": "Completed"
+    },
+    {
+      "id": "37",
+      "assignee": "Sara Ahmed",
+      "title": "Verify task summary counts",
+      "date": "2026-11-26T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Compare the status summary counts with the employee's assigned task list.",
+      "status": "In Progress"
+    },
+    {
+      "id": "38",
+      "assignee": "Sara Ahmed",
+      "title": "Check admin task deletion",
+      "date": "2026-11-27T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Verify deleted tasks disappear from the admin table and employee lists.",
+      "status": "New"
+    },
+    {
+      "id": "39",
+      "assignee": "Sara Ahmed",
+      "title": "Test task creation edge cases",
+      "date": "2026-11-28T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Test task creation with missing fields, long text, and valid values.",
+      "status": "Pending"
+    },
+    {
+      "id": "40",
+      "assignee": "Sara Ahmed",
+      "title": "Review empty task screens",
+      "date": "2026-11-29T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Confirm the admin and employee empty states appear when appropriate.",
+      "status": "Completed"
+    },
+    {
+      "id": "41",
+      "assignee": "Sara Ahmed",
+      "title": "Test task status badge colors",
+      "date": "2026-11-30T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Check status badge labels and colors in employee and admin views.",
+      "status": "New"
+    },
+    {
+      "id": "42",
+      "assignee": "Sara Ahmed",
+      "title": "Check login validation messages",
+      "date": "2026-12-01T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Verify correct feedback appears for valid and invalid login attempts.",
+      "status": "In Progress"
+    },
+    {
+      "id": "43",
+      "assignee": "Sara Ahmed",
+      "title": "Test dashboard responsiveness",
+      "date": "2026-12-02T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Check admin and employee dashboards at desktop, tablet, and mobile widths.",
+      "status": "Pending"
+    },
+    {
+      "id": "44",
+      "assignee": "Sara Ahmed",
+      "title": "Review task due date display",
+      "date": "2026-12-03T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Check task due dates for correct formatting and readable output.",
+      "status": "Completed"
+    },
+    {
+      "id": "45",
+      "assignee": "Sara Ahmed",
+      "title": "Test API server unavailable state",
+      "date": "2026-12-04T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Verify the loading error screen gives clear guidance when JSON Server is stopped.",
+      "status": "New"
+    },
+    {
+      "id": "46",
+      "assignee": "Sara Ahmed",
+      "title": "Check task list scrolling",
+      "date": "2026-12-05T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Confirm employees can scroll through longer task lists on different devices.",
+      "status": "Pending"
+    },
+    {
+      "id": "47",
+      "assignee": "Sara Ahmed",
+      "title": "Run final employee workflow checks",
+      "date": "2026-12-06T17:00:00",
+      "category": "Quality Assurance",
+      "description": "Complete a final pass through login, task viewing, and status update workflows.",
+      "status": "In Progress"
+    },
+    {
+      "assignee": "Hamza Ali",
+      "title": "Make a New Gmail",
+      "date": "2026-11-22T19:22",
+      "category": "Dev",
+      "description": "Hello Hamza Please make a New G-Mail to contact our clients",
+      "status": "New",
+      "id": "lJsbLckCEnw"
+    },
+    {
+      "assignee": "Sara Ahmed",
+      "title": "Make a New Youtube Channel",
+      "date": "2026-11-28T16:20",
+      "category": "Design",
+      "description": "Make a Youtube Channel for our Brand and Make Content for it",
+      "status": "New",
+      "id": "ysIdEsulMYM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
