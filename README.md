@@ -2,6 +2,14 @@
 
 A React practice app for employee task management, using JSON Server as a fake API.
 
+## Tech stack
+
+- React and JavaScript
+- Tailwind CSS and Vite
+- JSON Server for the mock API
+- Fuse.js for task search
+- LocalStorage for cached app data and login state
+
 ## Run locally
 
 Install dependencies:
